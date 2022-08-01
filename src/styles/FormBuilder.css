@@ -1,0 +1,19 @@
+.testContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dropContainer {
+  height: 500px;
+  width: 700px;
+  border: 1px solid black;
+}
+.resultButton {
+  height: 30px;
+  width: 100px;
+}
+.itemOption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

@@ -70,6 +70,7 @@ function FormBuilder() {
   //final result
   const handleSubmit = () => {
     console.log("final result", list);
+    localStorage.setItem("formBuilder", JSON.stringify(list));
   };
 
   //Step for user to go on form part

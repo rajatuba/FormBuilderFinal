@@ -17,6 +17,8 @@ const BuilderCheckbox = (props) => {
   };
   const handleChange = (changedField) => {
     let change = changes;
+    //console.log("changeField", changedField);
+    //console.log("change", change);
     change[changedField[0].name[0]] = changedField[0].value;
     setChanges(change);
   };
